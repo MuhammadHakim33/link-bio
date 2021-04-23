@@ -13,6 +13,7 @@
 .canvas {
   background: linear-gradient(180deg, #FAFAFA 47.54%, #ECE8FF 100%);
   height: 100vh;
+  position: relative;
 }
 
 .head {
