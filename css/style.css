@@ -59,4 +59,38 @@ header .sosmed a {
   }
 }
 
+main {
+  margin-top: 1.5rem;
+}
+main a {
+  color: white;
+  display: block;
+  background-color: #21252B;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  text-decoration: none;
+}
+main a .header {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #29B6F6;
+  margin-bottom: 1.5rem;
+}
+main a .tech {
+  list-style: none;
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+main a .tech li {
+  padding: 0.4rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+  margin-right: 0.5rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /*# sourceMappingURL=style.css.map */

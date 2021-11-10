@@ -30,7 +30,7 @@ header {
     .profile {
         &-photo img { border-radius: 50%; }
         &-name { 
-            @include fonts.title-header; 
+            @include fonts.title(); 
             margin-top: 1em;
         }
     }
@@ -59,6 +59,42 @@ header {
             &-photo img { width: 60px; }
         }
     }
+}
+
+main {
+    margin-top: 1.5rem;
+
+    a {
+        color: white;
+        display: block;
+        background-color: $color-main-light;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border: 1px solid rgba(white, .2);
+        border-radius: 5px;
+        text-decoration: none;
+
+        .header { 
+            @include fonts.headline1();
+            color: $color-secondary;
+            margin-bottom: 1.5rem;
+        }
+
+        .tech {
+            list-style: none;
+            display: flex;
+            @include fonts.caption();
+
+            li {
+                padding: .4rem;
+                background-color:  rgba(white, .1);
+                border: 1px solid rgba(white, .15);
+                border-radius: 2px;
+                margin-right: .5rem;
+                color: rgba(white, .6);
+            }
+        }
 
 
+    }
 }
