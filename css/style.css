@@ -17,12 +17,14 @@ body {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 576px;
+  box-sizing: border-box;
   margin: auto;
   padding: 24px;
 }
 
 header {
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -50,6 +52,11 @@ header .sosmed a {
   background-color: rgba(41, 182, 246, 0.1);
   border: 1px solid rgba(41, 182, 246, 0.3);
   margin-left: 0.5em;
+}
+@media only screen and (max-width: 720px) {
+  header .profile-photo img {
+    width: 60px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

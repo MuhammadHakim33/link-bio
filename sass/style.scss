@@ -15,12 +15,14 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 576px;
+    box-sizing: border-box;
     margin: auto;
     padding: 24px;
 }
 
 header {
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -48,6 +50,13 @@ header {
             background-color: rgba($color-secondary, .1);
             border: 1px solid rgba($color-secondary, .3);
             margin-left: .5em;
+        }
+    }
+
+    // Responsive
+    @media only screen and (max-width: 720px) {
+        .profile {
+            &-photo img { width: 60px; }
         }
     }
 
