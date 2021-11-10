@@ -16,9 +16,11 @@ body {
 
 .container {
     max-width: 576px;
+    min-height: 100vh;
     box-sizing: border-box;
     margin: auto;
     padding: 24px;
+    position: relative;
 }
 
 header {
@@ -62,7 +64,7 @@ header {
 }
 
 main {
-    margin-top: 1.5rem;
+    margin: 1.5rem 0;
 
     a {
         color: white;
@@ -94,7 +96,14 @@ main {
                 color: rgba(white, .6);
             }
         }
-
-
     }
+}
+
+footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: .4;
 }

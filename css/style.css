@@ -18,9 +18,11 @@ body {
 
 .container {
   max-width: 576px;
+  min-height: 100vh;
   box-sizing: border-box;
   margin: auto;
   padding: 24px;
+  position: relative;
 }
 
 header {
@@ -60,7 +62,7 @@ header .sosmed a {
 }
 
 main {
-  margin-top: 1.5rem;
+  margin: 1.5rem 0;
 }
 main a {
   color: white;
@@ -91,6 +93,15 @@ main a .tech li {
   border-radius: 2px;
   margin-right: 0.5rem;
   color: rgba(255, 255, 255, 0.6);
+}
+
+footer {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  opacity: 0.4;
 }
 
 /*# sourceMappingURL=style.css.map */
