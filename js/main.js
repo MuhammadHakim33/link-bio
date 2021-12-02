@@ -1,16 +1,4 @@
-// List Data
-let data = [
-    {
-        link: "https://flexiple.com/",
-        title: "Sistem Informasi",
-        tech: ["CSS", "Bulma"]
-    },
-    {
-        link: "https://dmitripavlutin.com/",
-        title: "Sistem",
-        tech: ["CSS", "Bulma", "Jqery"]
-    },
-];
+import { data } from './data.js';
 
 // Looping Object
 for(let i = 0; i < data.length; i++) {
